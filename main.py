@@ -5,12 +5,9 @@ def main():
     ########################################
     """
     
-    number = int(input('Enter your value here: '))
-    while (number != 19):
-        print(number)
-        number = int(input('Enter your value here: '))
-        
-    print(number)
+    number = 0
+    while number <= 0 or number >= 100:
+        number = int(input('Enter your input: '))
 
     ########################################
     # Do not delete the return statement

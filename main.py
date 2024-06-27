@@ -4,7 +4,11 @@ def main():
     Code Your Program here
     ########################################
     """
-
+    number = int(input('Enter your value here: '))
+    while (number != 19):
+        print(number)
+        number = int(input('Enter your value here: '))
+        
     print(number)
 
     ########################################
